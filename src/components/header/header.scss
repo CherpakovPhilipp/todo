@@ -1,0 +1,11 @@
+@import '../../styles/mixins.scss';
+
+.header{
+  @include components_common;
+
+  padding: 10px 25px;
+  background: green;
+  justify-content: space-between;
+  flex: 0 0 auto;
+  margin-bottom: 50px;
+}
